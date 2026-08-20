@@ -1,0 +1,2536 @@
+[
+ {
+  "unit_id": "CALC-TOP00",
+  "concepts": [
+   {
+    "slug": "limits",
+    "name": "Limits",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Limits",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "CALC-LEC05",
+  "concepts": [
+   {
+    "slug": "definition-of-the-derivative",
+    "name": "Definition of the derivative",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "motivation",
+    "name": "Motivation",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "differentiation-rules",
+    "name": "Differentiation rules",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "CALC-LEC07",
+  "concepts": [
+   {
+    "slug": "differential-of-a-function",
+    "name": "Differential of a function",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Differential of a function. Higher-order derivatives. Practice session 18 Practice session 19",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "higher-order-derivatives",
+    "name": "Higher-order derivatives",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Differential of a function. Higher-order derivatives. Practice session 18 Practice session 19",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "CALC-LEC10",
+  "concepts": [
+   {
+    "slug": "antiderivative",
+    "name": "Antiderivative",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "indefinite-integral",
+    "name": "indefinite integral",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "substitution",
+    "name": "Substitution",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "CALC-LEC12",
+  "concepts": [
+   {
+    "slug": "definite-integral",
+    "name": "Definite integral",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "properties-of-the-definite-integral",
+    "name": "Properties of the definite integral",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "mean-value-theorem-for-integrals",
+    "name": "Mean value theorem for integrals",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "newton-leibniz-formula",
+    "name": "Newton-Leibniz formula",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "series",
+    "name": "Series",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "convergence-of-series",
+    "name": "Convergence of series",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "tests-for-convergence-of-numerical-series",
+    "name": "Tests for convergence of numerical series",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "taylor-series",
+    "name": "Taylor series",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "maclaurin-series",
+    "name": "Maclaurin series",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "domains-of-convergence",
+    "name": "Domains of convergence",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "integrals",
+    "name": "Integrals",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "calc",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Calculus.pdf",
+      "role": "introduced",
+      "quote": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-TOP00",
+  "concepts": [
+   {
+    "slug": "linear-equations",
+    "name": "Linear equations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": ": Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "systems-of-linear-equations-sle",
+    "name": "Systems of linear equations (SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": ": Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrices-of-sle",
+    "name": "Matrices of SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": ": Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "jordan-gauss-method",
+    "name": "Jordan-Gauss method",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": ": Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES01",
+  "concepts": [
+   {
+    "slug": "back-to-school",
+    "name": "Back to School",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrices",
+    "name": "Matrices",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "row",
+    "name": "row",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "operations",
+    "name": "operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "jordan-gauss-method",
+    "name": "Jordan-Gauss method",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "elimination",
+    "name": "elimination",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "system-of-linear-equations-sle",
+    "name": "System of linear equations (SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrices-of-sle",
+    "name": "Matrices of SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "row-operations",
+    "name": "row operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "gaussian-elimination",
+    "name": "Gaussian elimination",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Back to School. Problem Solving Session 2. Matrices and row",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES04",
+  "concepts": [
+   {
+    "slug": "applications-for-sle",
+    "name": "Applications for SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Applications for SLE.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "applications-for-solutions-for-sle",
+    "name": "Applications for solutions for SLE",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Applications for SLE.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES06",
+  "concepts": [
+   {
+    "slug": "vectors",
+    "name": "vectors",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Operations with vectors. The concept of a linear space.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "concept-of-a-linear-space",
+    "name": "concept of a linear space",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Operations with vectors. The concept of a linear space.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "algebraic-view-on-vectors",
+    "name": "Algebraic view on vectors",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Operations with vectors. The concept of a linear space.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "definition-of-a-matrix-recap",
+    "name": "definition of a matrix (recap",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Operations with vectors. The concept of a linear space.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "special-matrices",
+    "name": "special matrices",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Operations with vectors. The concept of a linear space.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES07",
+  "concepts": [
+   {
+    "slug": "matrix-operations-addition",
+    "name": "Matrix operations: addition",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: addition, scalar multiplication, transposition.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "scalar-multiplication",
+    "name": "scalar multiplication",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: addition, scalar multiplication, transposition.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "transposition",
+    "name": "transposition",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: addition, scalar multiplication, transposition.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES08",
+  "concepts": [
+   {
+    "slug": "matrix-operations-multiplication",
+    "name": "Matrix operations: multiplication",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrices-addition",
+    "name": "matrices: addition",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "scalar-multiplication",
+    "name": "scalar multiplication",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "transposition",
+    "name": "transposition",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "multiplication-of-matrix-by-vector",
+    "name": "Multiplication of matrix by vector",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrix-multiplication",
+    "name": "matrix multiplication",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Matrix operations: multiplication.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES10",
+  "concepts": [
+   {
+    "slug": "an-inverse-matrix",
+    "name": "an inverse matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Finding an inverse matrix.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "inverse-matrix",
+    "name": "Inverse matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Finding an inverse matrix.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "inverse-matrix-using-jordan-gauss-method",
+    "name": "inverse matrix using Jordan-Gauss method",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Finding an inverse matrix.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "explicit-formula-for-an-inverse-for-2-2-matrix",
+    "name": "Explicit formula for an inverse for 2×2 matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Finding an inverse matrix.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES11",
+  "concepts": [
+   {
+    "slug": "solving-sle-using-the-inverse-matrix",
+    "name": "Solving SLE using the inverse matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Solving SLE using the inverse matrix.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES12",
+  "concepts": [
+   {
+    "slug": "determinants",
+    "name": "Determinants",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Determinants and their applications.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "their-applications",
+    "name": "their applications",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Determinants and their applications.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "solving-sle-using-the-inverse-matrix",
+    "name": "Solving SLE using the inverse matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Determinants and their applications.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "determinant-of-matrix",
+    "name": "Determinant of matrix",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Determinants and their applications.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "geometrical-approach-in-the-case-of-a-2-2-matrix",
+    "name": "Geometrical approach in the case of a 2×2 matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Determinants and their applications.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "LINALG-SES14",
+  "concepts": [
+   {
+    "slug": "geometric-transformations",
+    "name": "Geometric transformations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Geometric transformations and matrices.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "matrices",
+    "name": "matrices",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Geometric transformations and matrices.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "geometric-transformations-using-vectors-matrices-symmetry",
+    "name": "Geometric transformations using vectors/matrices: symmetry",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Geometric transformations and matrices.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "rotation",
+    "name": "rotation",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "linalg",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Linear_Algebra.pdf",
+      "role": "introduced",
+      "quote": "Geometric transformations and matrices.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "ML-MOD05",
+  "concepts": [
+   {
+    "slug": "ensemble-learning",
+    "name": "Ensemble learning",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "basic-averaging",
+    "name": "Basic averaging",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "majority-vote",
+    "name": "majority vote",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "bagging-ensemble",
+    "name": "Bagging ensemble",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "random-forest",
+    "name": "Random forest",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "adaptive-boosting",
+    "name": "Adaptive boosting",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "stacking",
+    "name": "stacking",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "blending",
+    "name": "blending",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Ensemble learning",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "ML-MOD06",
+  "concepts": [
+   {
+    "slug": "performance-metrics",
+    "name": "Performance metrics",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "accuracy",
+    "name": "Accuracy",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "baselines",
+    "name": "baselines",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "confusion-matrix",
+    "name": "Confusion matrix",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "recall",
+    "name": "recall",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "precision",
+    "name": "precision",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "dice",
+    "name": "Dice",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "roc",
+    "name": "ROC",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "auc",
+    "name": "AUC",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "holistic-view",
+    "name": "Holistic view",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "ml",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Machine_Learning.pdf",
+      "role": "introduced",
+      "quote": "Performance metrics",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-TOP00",
+  "concepts": [
+   {
+    "slug": "basics-of-logic",
+    "name": "Basics of logic",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Basics of logic and set theory",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "set-theory",
+    "name": "set theory",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Basics of logic and set theory",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT01",
+  "concepts": [
+   {
+    "slug": "logical-propositions",
+    "name": "Logical propositions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical propositions, true/false propositions.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "true-false-propositions",
+    "name": "true/false propositions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical propositions, true/false propositions.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA01",
+  "concepts": [
+   {
+    "slug": "logical-propositions",
+    "name": "Logical propositions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical propositions, true/false propositions.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "true-false-propositions",
+    "name": "true/false propositions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical propositions, true/false propositions.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT02",
+  "concepts": [
+   {
+    "slug": "logical-operations",
+    "name": "Logical operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical operations, truth tables.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "truth-tables",
+    "name": "truth tables",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical operations, truth tables.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA02",
+  "concepts": [
+   {
+    "slug": "logical-operations",
+    "name": "Logical operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical operations, truth tables.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "truth-tables",
+    "name": "truth tables",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Logical operations, truth tables.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT03",
+  "concepts": [
+   {
+    "slug": "negations-to-claims",
+    "name": "negations to claims",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Building negations to claims.  Practice session 3. Building negations to claims.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT04",
+  "concepts": [
+   {
+    "slug": "sets",
+    "name": "Sets",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "subsets",
+    "name": "subsets",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "set-operations",
+    "name": "set operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "euler-diagrams",
+    "name": "Euler diagrams",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA04",
+  "concepts": [
+   {
+    "slug": "sets",
+    "name": "Sets",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "subsets",
+    "name": "subsets",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "set-operations",
+    "name": "set operations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "euler-diagrams",
+    "name": "Euler diagrams",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Sets and subsets, set operations, Euler diagrams.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT05",
+  "concepts": [
+   {
+    "slug": "number-of-elements-in-a-finite-set",
+    "name": "Number of Elements in a Finite Set",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "The Number of Elements in a Finite Set.  Practice session 5. The Number of Elements in a Finite Set.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "set-theory",
+    "name": "Set theory",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "The Number of Elements in a Finite Set.  Practice session 5. The Number of Elements in a Finite Set.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "combinatorics",
+    "name": "combinatorics",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "The Number of Elements in a Finite Set.  Practice session 5. The Number of Elements in a Finite Set.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT06",
+  "concepts": [
+   {
+    "slug": "cartesian-product",
+    "name": "Cartesian product",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "multiplication",
+    "name": "multiplication",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "addition-rules",
+    "name": "addition rules",
+    "kind": "method",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "permutations",
+    "name": "Permutations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "combinations",
+    "name": "Combinations",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "probability",
+    "name": "Probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "rules-of-probability-preparation-lecture-materials-8",
+    "name": "rules of probability Preparation lecture materials 8",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "event-space",
+    "name": "Event space",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "events",
+    "name": "events",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "probability-definition",
+    "name": "Probability definition",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "rules-of-probability",
+    "name": "Rules of probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "combinatorics-in-probability-word-problems",
+    "name": "combinatorics in probability word problems",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT11",
+  "concepts": [
+   {
+    "slug": "conditional-probability",
+    "name": "Conditional probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Conditional probability and independent events.  Practice session 11. Conditional probability and independent events.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "independent-events",
+    "name": "independent events",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Conditional probability and independent events.  Practice session 11. Conditional probability and independent events.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT12",
+  "concepts": [
+   {
+    "slug": "total-probability-law-chain-rule",
+    "name": "Total probability law (chain rule",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Total probability law (chain rule).",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA12",
+  "concepts": [
+   {
+    "slug": "total-probability-law-chain-rule",
+    "name": "Total probability law (chain rule",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Total probability law (chain rule).",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT13",
+  "concepts": [
+   {
+    "slug": "posteriori-probability",
+    "name": "posteriori probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.  Practice session 13. A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "bayes-rule",
+    "name": "Bayes' rule",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.  Practice session 13. A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT14",
+  "concepts": [
+   {
+    "slug": "posteriori-probability",
+    "name": "posteriori probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "bayes-rule",
+    "name": "Bayes' rule",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA14",
+  "concepts": [
+   {
+    "slug": "posteriori-probability",
+    "name": "posteriori probability",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "bayes-rule",
+    "name": "Bayes' rule",
+    "kind": "principle",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "A posteriori probability, Bayes' rule.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT15",
+  "concepts": [
+   {
+    "slug": "random-distributions",
+    "name": "Random distributions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Expected value.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "expected-value",
+    "name": "Expected value",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Expected value.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA15",
+  "concepts": [
+   {
+    "slug": "random-distributions",
+    "name": "Random distributions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Expected value.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "expected-value",
+    "name": "Expected value",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Expected value.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-MAT16",
+  "concepts": [
+   {
+    "slug": "random-distributions",
+    "name": "Random distributions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "variance",
+    "name": "Variance",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "standard-deviation",
+    "name": "standard deviation",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ },
+ {
+  "unit_id": "PROB-PRA16",
+  "concepts": [
+   {
+    "slug": "random-distributions",
+    "name": "Random distributions",
+    "kind": "definition",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "variance",
+    "name": "Variance",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   },
+   {
+    "slug": "standard-deviation",
+    "name": "standard deviation",
+    "kind": "metric",
+    "difficulty": 3,
+    "domain": "prob",
+    "definition": "",
+    "aliases": [],
+    "occurrences": [
+     {
+      "rel_path": "Syllabus_Probability_essentials.pdf",
+      "role": "introduced",
+      "quote": "Random distributions. Variance and standard deviation.",
+      "confidence": 0.6
+     }
+    ]
+   }
+  ],
+  "links": []
+ }
+]

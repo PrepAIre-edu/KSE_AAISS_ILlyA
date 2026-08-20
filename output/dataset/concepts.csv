@@ -1,0 +1,111 @@
+slug,name,kind,difficulty,domain,definition,aliases,courses,units,n_units,n_courses,degree,occurrence_count,files
+accuracy,Accuracy,metric,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+adaptive-boosting,Adaptive boosting,method,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+addition-rules,addition rules,method,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+algebraic-view-on-vectors,Algebraic view on vectors,definition,3,linalg,,,LINALG,LINALG-SES06,1,1,0,1,Syllabus_Linear_Algebra.pdf
+an-inverse-matrix,an inverse matrix,definition,3,linalg,,,LINALG,LINALG-SES10,1,1,2,1,Syllabus_Linear_Algebra.pdf
+antiderivative,Antiderivative,definition,3,calc,,,CALC,CALC-LEC10,1,1,2,1,Syllabus_Calculus.pdf
+applications-for-sle,Applications for SLE,definition,3,linalg,,,LINALG,LINALG-SES04,1,1,2,1,Syllabus_Linear_Algebra.pdf
+applications-for-solutions-for-sle,Applications for solutions for SLE,definition,3,linalg,,,LINALG,LINALG-SES04,1,1,0,1,Syllabus_Linear_Algebra.pdf
+auc,AUC,metric,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+back-to-school,Back to School,definition,3,linalg,,,LINALG,LINALG-SES01,1,1,2,1,Syllabus_Linear_Algebra.pdf
+bagging-ensemble,Bagging ensemble,method,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+baselines,baselines,definition,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+basic-averaging,Basic averaging,definition,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+basics-of-logic,Basics of logic,definition,3,prob,,,PROB,PROB-TOP00,1,1,25,1,Syllabus_Probability_essentials.pdf
+bayes-rule,Bayes' rule,principle,3,prob,,,PROB,PROB-MAT13|PROB-MAT14|PROB-PRA14,3,1,0,2,Syllabus_Probability_essentials.pdf
+blending,blending,definition,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+cartesian-product,Cartesian product,definition,3,prob,,,PROB,PROB-MAT06,1,1,3,1,Syllabus_Probability_essentials.pdf
+combinations,Combinations,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+combinatorics,combinatorics,definition,3,prob,,,PROB,PROB-MAT05,1,1,1,1,Syllabus_Probability_essentials.pdf
+combinatorics-in-probability-word-problems,combinatorics in probability word problems,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+concept-of-a-linear-space,concept of a linear space,definition,3,linalg,,,LINALG,LINALG-SES06,1,1,0,1,Syllabus_Linear_Algebra.pdf
+conditional-probability,Conditional probability,definition,3,prob,,,PROB,PROB-MAT11,1,1,2,1,Syllabus_Probability_essentials.pdf
+confusion-matrix,Confusion matrix,definition,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+convergence-of-series,Convergence of series,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+definite-integral,Definite integral,definition,3,calc,,,CALC,CALC-LEC12,1,1,1,1,Syllabus_Calculus.pdf
+definition-of-a-matrix-recap,definition of a matrix (recap,definition,3,linalg,,,LINALG,LINALG-SES06,1,1,0,1,Syllabus_Linear_Algebra.pdf
+definition-of-the-derivative,Definition of the derivative,definition,3,calc,,,CALC,CALC-LEC05,1,1,2,1,Syllabus_Calculus.pdf
+determinant-of-matrix,Determinant of matrix,metric,3,linalg,,,LINALG,LINALG-SES12,1,1,0,1,Syllabus_Linear_Algebra.pdf
+determinants,Determinants,definition,3,linalg,,,LINALG,LINALG-SES12,1,1,2,1,Syllabus_Linear_Algebra.pdf
+dice,Dice,definition,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+differential-of-a-function,Differential of a function,definition,3,calc,,,CALC,CALC-LEC07,1,1,2,1,Syllabus_Calculus.pdf
+differentiation-rules,Differentiation rules,definition,3,calc,,,CALC,CALC-LEC05,1,1,0,1,Syllabus_Calculus.pdf
+domains-of-convergence,Domains of convergence,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+elimination,elimination,method,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+ensemble-learning,Ensemble learning,definition,3,ml,,,ML,ML-MOD05,1,1,1,1,Syllabus_Machine_Learning.pdf
+euler-diagrams,Euler diagrams,definition,3,prob,,,PROB,PROB-MAT04|PROB-PRA04,2,1,1,1,Syllabus_Probability_essentials.pdf
+event-space,Event space,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+events,events,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+expected-value,Expected value,metric,3,prob,,,PROB,PROB-MAT15|PROB-PRA15,2,1,0,1,Syllabus_Probability_essentials.pdf
+explicit-formula-for-an-inverse-for-2-2-matrix,Explicit formula for an inverse for 2×2 matrix,definition,3,linalg,,,LINALG,LINALG-SES10,1,1,0,1,Syllabus_Linear_Algebra.pdf
+gaussian-elimination,Gaussian elimination,method,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+geometric-transformations,Geometric transformations,definition,3,linalg,,,LINALG,LINALG-SES14,1,1,1,1,Syllabus_Linear_Algebra.pdf
+geometric-transformations-using-vectors-matrices-symmetry,Geometric transformations using vectors/matrices: symmetry,definition,3,linalg,,,LINALG,LINALG-SES14,1,1,0,1,Syllabus_Linear_Algebra.pdf
+geometrical-approach-in-the-case-of-a-2-2-matrix,Geometrical approach in the case of a 2×2 matrix,definition,3,linalg,,,LINALG,LINALG-SES12,1,1,0,1,Syllabus_Linear_Algebra.pdf
+higher-order-derivatives,Higher-order derivatives,definition,3,calc,,,CALC,CALC-LEC07,1,1,0,1,Syllabus_Calculus.pdf
+holistic-view,Holistic view,definition,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+indefinite-integral,indefinite integral,definition,3,calc,,,CALC,CALC-LEC10,1,1,0,1,Syllabus_Calculus.pdf
+independent-events,independent events,definition,3,prob,,,PROB,PROB-MAT11,1,1,0,1,Syllabus_Probability_essentials.pdf
+integrals,Integrals,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+inverse-matrix,Inverse matrix,definition,3,linalg,,,LINALG,LINALG-SES10,1,1,0,1,Syllabus_Linear_Algebra.pdf
+inverse-matrix-using-jordan-gauss-method,inverse matrix using Jordan-Gauss method,method,3,linalg,,,LINALG,LINALG-SES10,1,1,0,1,Syllabus_Linear_Algebra.pdf
+jordan-gauss-method,Jordan-Gauss method,method,3,linalg,,,LINALG,LINALG-SES01|LINALG-TOP00,2,1,0,2,Syllabus_Linear_Algebra.pdf
+limits,Limits,definition,3,calc,,,CALC,CALC-TOP00,1,1,1,1,Syllabus_Calculus.pdf
+linear-equations,Linear equations,definition,3,linalg,,,LINALG,LINALG-TOP00,1,1,1,1,Syllabus_Linear_Algebra.pdf
+logical-operations,Logical operations,definition,3,prob,,,PROB,PROB-MAT02|PROB-PRA02,2,1,3,1,Syllabus_Probability_essentials.pdf
+logical-propositions,Logical propositions,definition,3,prob,,,PROB,PROB-MAT01|PROB-PRA01,2,1,3,1,Syllabus_Probability_essentials.pdf
+maclaurin-series,Maclaurin series,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+majority-vote,majority vote,definition,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+matrices,Matrices,definition,3,linalg,,,LINALG,LINALG-SES01|LINALG-SES14,2,1,0,2,Syllabus_Linear_Algebra.pdf
+matrices-addition,matrices: addition,method,3,linalg,,,LINALG,LINALG-SES08,1,1,0,1,Syllabus_Linear_Algebra.pdf
+matrices-of-sle,Matrices of SLE,definition,3,linalg,,,LINALG,LINALG-SES01|LINALG-TOP00,2,1,0,2,Syllabus_Linear_Algebra.pdf
+matrix-multiplication,matrix multiplication,method,3,linalg,,,LINALG,LINALG-SES08,1,1,0,1,Syllabus_Linear_Algebra.pdf
+matrix-operations-addition,Matrix operations: addition,method,3,linalg,,,LINALG,LINALG-SES07,1,1,2,1,Syllabus_Linear_Algebra.pdf
+matrix-operations-multiplication,Matrix operations: multiplication,method,3,linalg,,,LINALG,LINALG-SES08,1,1,2,1,Syllabus_Linear_Algebra.pdf
+mean-value-theorem-for-integrals,Mean value theorem for integrals,principle,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+motivation,Motivation,definition,3,calc,,,CALC,CALC-LEC05,1,1,0,1,Syllabus_Calculus.pdf
+multiplication,multiplication,method,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+multiplication-of-matrix-by-vector,Multiplication of matrix by vector,method,3,linalg,,,LINALG,LINALG-SES08,1,1,0,1,Syllabus_Linear_Algebra.pdf
+negations-to-claims,negations to claims,definition,3,prob,,,PROB,PROB-MAT03,1,1,3,1,Syllabus_Probability_essentials.pdf
+newton-leibniz-formula,Newton-Leibniz formula,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+number-of-elements-in-a-finite-set,Number of Elements in a Finite Set,definition,3,prob,,,PROB,PROB-MAT05,1,1,3,1,Syllabus_Probability_essentials.pdf
+operations,operations,definition,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+performance-metrics,Performance metrics,definition,3,ml,,,ML,ML-MOD06,1,1,1,1,Syllabus_Machine_Learning.pdf
+permutations,Permutations,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+posteriori-probability,posteriori probability,definition,3,prob,,,PROB,PROB-MAT13|PROB-MAT14|PROB-PRA14,3,1,2,2,Syllabus_Probability_essentials.pdf
+precision,precision,metric,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+probability,Probability,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+probability-definition,Probability definition,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+properties-of-the-definite-integral,Properties of the definite integral,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+random-distributions,Random distributions,definition,3,prob,,,PROB,PROB-MAT15|PROB-MAT16|PROB-PRA15|PROB-PRA16,4,1,1,2,Syllabus_Probability_essentials.pdf
+random-forest,Random forest,definition,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+recall,recall,metric,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+roc,ROC,definition,3,ml,,,ML,ML-MOD06,1,1,0,1,Syllabus_Machine_Learning.pdf
+rotation,rotation,definition,3,linalg,,,LINALG,LINALG-SES14,1,1,0,1,Syllabus_Linear_Algebra.pdf
+row,row,definition,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+row-operations,row operations,definition,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+rules-of-probability,Rules of probability,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+rules-of-probability-preparation-lecture-materials-8,rules of probability Preparation lecture materials 8,definition,3,prob,,,PROB,PROB-MAT06,1,1,1,1,Syllabus_Probability_essentials.pdf
+scalar-multiplication,scalar multiplication,method,3,linalg,,,LINALG,LINALG-SES07|LINALG-SES08,2,1,0,2,Syllabus_Linear_Algebra.pdf
+series,Series,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+set-operations,set operations,definition,3,prob,,,PROB,PROB-MAT04|PROB-PRA04,2,1,1,1,Syllabus_Probability_essentials.pdf
+set-theory,set theory,definition,3,prob,,,PROB,PROB-MAT05|PROB-TOP00,2,1,1,2,Syllabus_Probability_essentials.pdf
+sets,Sets,definition,3,prob,,,PROB,PROB-MAT04|PROB-PRA04,2,1,3,1,Syllabus_Probability_essentials.pdf
+solving-sle-using-the-inverse-matrix,Solving SLE using the inverse matrix,definition,3,linalg,,,LINALG,LINALG-SES11|LINALG-SES12,2,1,2,2,Syllabus_Linear_Algebra.pdf
+special-matrices,special matrices,definition,3,linalg,,,LINALG,LINALG-SES06,1,1,0,1,Syllabus_Linear_Algebra.pdf
+stacking,stacking,method,3,ml,,,ML,ML-MOD05,1,1,0,1,Syllabus_Machine_Learning.pdf
+standard-deviation,standard deviation,metric,3,prob,,,PROB,PROB-MAT16|PROB-PRA16,2,1,0,1,Syllabus_Probability_essentials.pdf
+subsets,subsets,definition,3,prob,,,PROB,PROB-MAT04|PROB-PRA04,2,1,1,1,Syllabus_Probability_essentials.pdf
+substitution,Substitution,method,3,calc,,,CALC,CALC-LEC10,1,1,0,1,Syllabus_Calculus.pdf
+system-of-linear-equations-sle,System of linear equations (SLE,definition,3,linalg,,,LINALG,LINALG-SES01,1,1,0,1,Syllabus_Linear_Algebra.pdf
+systems-of-linear-equations-sle,Systems of linear equations (SLE,definition,3,linalg,,,LINALG,LINALG-TOP00,1,1,0,1,Syllabus_Linear_Algebra.pdf
+taylor-series,Taylor series,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+tests-for-convergence-of-numerical-series,Tests for convergence of numerical series,definition,3,calc,,,CALC,CALC-LEC12,1,1,0,1,Syllabus_Calculus.pdf
+their-applications,their applications,definition,3,linalg,,,LINALG,LINALG-SES12,1,1,0,1,Syllabus_Linear_Algebra.pdf
+total-probability-law-chain-rule,Total probability law (chain rule,principle,3,prob,,,PROB,PROB-MAT12|PROB-PRA12,2,1,2,1,Syllabus_Probability_essentials.pdf
+transposition,transposition,method,3,linalg,,,LINALG,LINALG-SES07|LINALG-SES08,2,1,0,2,Syllabus_Linear_Algebra.pdf
+true-false-propositions,true/false propositions,definition,3,prob,,,PROB,PROB-MAT01|PROB-PRA01,2,1,1,1,Syllabus_Probability_essentials.pdf
+truth-tables,truth tables,definition,3,prob,,,PROB,PROB-MAT02|PROB-PRA02,2,1,1,1,Syllabus_Probability_essentials.pdf
+variance,Variance,metric,3,prob,,,PROB,PROB-MAT16|PROB-PRA16,2,1,0,1,Syllabus_Probability_essentials.pdf
+vectors,vectors,definition,3,linalg,,,LINALG,LINALG-SES06,1,1,2,1,Syllabus_Linear_Algebra.pdf

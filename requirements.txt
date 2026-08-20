@@ -1,0 +1,18 @@
+# Versions pinned exactly, not floor-constrained: mcp's Python SDK went
+# through a breaking API restructure between 1.x and 2.x (FastMCP renamed to
+# MCPServer, import paths changed), which this project's code targets
+# directly. An unpinned `>=` install could silently pull a future breaking
+# release. Re-verify (see docs/MCP_ASSIGNMENT_PLAN.md) before bumping any of
+# these.
+
+anthropic==0.120.2
+pydantic==2.13.4
+mcp==2.0.0                # custom MCP server (mcp_servers/curriculum_mcp)
+httpx2==2.12.0            # transitive dep of mcp; imported directly by
+                          # scripts/check_obsidian_connection.py
+claude-agent-sdk==0.2.140 # study_planner/study_planner_agent.py
+
+# PDF text extraction. The pipeline prefers the `pdftotext` CLI (poppler-utils,
+# better column handling); this is the pure-pip fallback and the simplest route
+# on Windows, where poppler is not installed by default.
+pymupdf==1.28.0

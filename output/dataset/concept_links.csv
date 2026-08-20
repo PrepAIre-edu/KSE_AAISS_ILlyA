@@ -1,0 +1,49 @@
+src_slug,dst_slug,type,strength,rationale,origin,cross_course
+an-inverse-matrix,solving-sle-using-the-inverse-matrix,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+antiderivative,definite-integral,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+applications-for-sle,vectors,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+back-to-school,applications-for-sle,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+basics-of-logic,logical-propositions,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+cartesian-product,conditional-probability,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+conditional-probability,total-probability-law-chain-rule,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+definition-of-the-derivative,differential-of-a-function,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+determinants,geometric-transformations,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+differential-of-a-function,antiderivative,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+ensemble-learning,performance-metrics,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+limits,definition-of-the-derivative,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+linear-equations,back-to-school,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+logical-operations,negations-to-claims,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+logical-propositions,logical-operations,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+matrix-operations-addition,matrix-operations-multiplication,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+matrix-operations-multiplication,an-inverse-matrix,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+negations-to-claims,sets,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+number-of-elements-in-a-finite-set,cartesian-product,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+posteriori-probability,random-distributions,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+sets,number-of-elements-in-a-finite-set,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+solving-sle-using-the-inverse-matrix,determinants,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+total-probability-law-chain-rule,posteriori-probability,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+vectors,matrix-operations-addition,prerequisite,0.4,the syllabus schedules this lesson after the previous one,extracted,0
+addition-rules,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+cartesian-product,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+combinations,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+combinatorics,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+combinatorics-in-probability-word-problems,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+euler-diagrams,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+event-space,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+events,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+logical-operations,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+logical-propositions,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+multiplication,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+negations-to-claims,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+number-of-elements-in-a-finite-set,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+permutations,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+probability,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+probability-definition,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+rules-of-probability,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+rules-of-probability-preparation-lecture-materials-8,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+set-operations,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+set-theory,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+sets,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+subsets,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+true-false-propositions,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0
+truth-tables,basics-of-logic,part_of,0.7,taught under this topic heading in the syllabus,extracted,0

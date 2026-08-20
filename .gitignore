@@ -1,0 +1,19 @@
+# secrets / local config — never commit
+.env
+*.local.json
+
+# Obsidian's own vault state: workspace layout, and — critically —
+# .obsidian/plugins/obsidian-local-rest-api/data.json, which holds the live
+# API key AND the HTTPS certificate's private key in plain text.
+obsidian_demo_vault/.obsidian/
+
+# python
+__pycache__/
+*.pyc
+
+# conceptgraph intermediate artifacts (regenerable; only output/dataset/* is
+# the committed, reproducible demo dataset)
+output/.cache/
+output/txt/
+output/units/
+output/concepts_raw/

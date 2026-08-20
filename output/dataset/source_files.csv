@@ -1,0 +1,5 @@
+rel_path,filename,course_code,unit_id,asset_kind,asset_ordinal,part_ordinal,bytes,sha256
+Syllabus_Calculus.pdf,Syllabus_Calculus.pdf,CALC,CALC-OMU0,handbook,,,326855,bc405c0ee02671a126a7c3bbb533079ba5e905fefba3b0bd0686193565928e52
+Syllabus_Linear_Algebra.pdf,Syllabus_Linear_Algebra.pdf,LINALG,LINALG-OMU0,handbook,,,583775,36c1849768b17ad39bccf10178b871afa665aec8a8ab535809016d5ac968c0b2
+Syllabus_Machine_Learning.pdf,Syllabus_Machine_Learning.pdf,ML,ML-OMU0,handbook,,,996896,5fb7fb78ad3475d0c829d132f768ac7b1a6c22969f0ec40c85421ded42514905
+Syllabus_Probability_essentials.pdf,Syllabus_Probability_essentials.pdf,PROB,PROB-OMU0,handbook,,,250957,52beb675c5389d6dec450f5132f7cdc8288b70f60ba3449459b12ae5cacef09e

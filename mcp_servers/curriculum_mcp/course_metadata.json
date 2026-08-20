@@ -1,0 +1,29 @@
+{
+  "_comment": "Manually transcribed from each syllabus's own text (output/txt/*.txt after conceptgraph textract), not inferred or invented. 'provenance' quotes the exact source line so the figures can be checked against the PDFs. 'internal_prerequisites' lists course_codes, from this same 4-course set, that a course's own syllabus names as a prerequisite; empty means the syllabus names none of our other three courses (its stated prerequisites, if any, are external — see 'external_prerequisites').",
+  "courses": {
+    "CALC": {
+      "ects": 6,
+      "internal_prerequisites": [],
+      "external_prerequisites": ["Introduction to mathematics: functions, sequences, equations, inequalities, trigonometry"],
+      "provenance": "Syllabus_Calculus.pdf: 'ECTS credits / 6 (180 hours)'; 'Prerequisites « Introduction to mathematics»: functions, sequences, equations, inequalities, trigonometry'"
+    },
+    "LINALG": {
+      "ects": 3,
+      "internal_prerequisites": [],
+      "external_prerequisites": [],
+      "provenance": "Syllabus_Linear_Algebra.pdf: 'ECTS credits / 3 (90 hours)'; 'Prerequisites You do not need advanced mathematics to join this course.'"
+    },
+    "ML": {
+      "ects": 6,
+      "internal_prerequisites": [],
+      "external_prerequisites": ["Programming Concepts", "Data Manipulation Essentials"],
+      "provenance": "Syllabus_Machine_Learning.pdf: 'ECTS credits / 6'; 'Prerequisites ... Recommended prerequisite courses include “Programming Concepts” and “Data Manipulation Essentials.”'"
+    },
+    "PROB": {
+      "ects": 4,
+      "internal_prerequisites": [],
+      "external_prerequisites": [],
+      "provenance": "Syllabus_Probability_essentials.pdf: 'Amount of ECTS credits: 4 credits'; 'Prerequisites: None'"
+    }
+  }
+}

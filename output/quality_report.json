@@ -1,0 +1,348 @@
+{
+ "concepts": 110,
+ "links": 48,
+ "occurrences": 120,
+ "link_types": {
+  "prerequisite": 24,
+  "part_of": 24
+ },
+ "bridge_links": 0,
+ "cross_course_links": 0,
+ "multi_course_concepts": 0,
+ "quote_verbatim_rate": 1.0,
+ "quotes_verified": 120,
+ "quotes_unverified": 0,
+ "unit_coverage": 1.0,
+ "units_expected": 37,
+ "units_covered": 37,
+ "units_empty": [],
+ "units_out_of_range": [
+  [
+   "CALC-LEC05",
+   3
+  ],
+  [
+   "CALC-LEC07",
+   2
+  ],
+  [
+   "CALC-LEC10",
+   3
+  ],
+  [
+   "CALC-LEC12",
+   11
+  ],
+  [
+   "CALC-TOP00",
+   1
+  ],
+  [
+   "LINALG-SES04",
+   2
+  ],
+  [
+   "LINALG-SES07",
+   3
+  ],
+  [
+   "LINALG-SES10",
+   4
+  ],
+  [
+   "LINALG-SES11",
+   1
+  ],
+  [
+   "LINALG-SES14",
+   4
+  ],
+  [
+   "LINALG-TOP00",
+   4
+  ],
+  [
+   "PROB-MAT01",
+   2
+  ],
+  [
+   "PROB-MAT02",
+   2
+  ],
+  [
+   "PROB-MAT03",
+   1
+  ],
+  [
+   "PROB-MAT04",
+   4
+  ],
+  [
+   "PROB-MAT05",
+   3
+  ],
+  [
+   "PROB-MAT06",
+   12
+  ],
+  [
+   "PROB-MAT11",
+   2
+  ],
+  [
+   "PROB-MAT12",
+   1
+  ],
+  [
+   "PROB-MAT13",
+   2
+  ],
+  [
+   "PROB-MAT14",
+   2
+  ],
+  [
+   "PROB-MAT15",
+   2
+  ],
+  [
+   "PROB-MAT16",
+   3
+  ],
+  [
+   "PROB-PRA01",
+   2
+  ],
+  [
+   "PROB-PRA02",
+   2
+  ],
+  [
+   "PROB-PRA04",
+   4
+  ],
+  [
+   "PROB-PRA12",
+   1
+  ],
+  [
+   "PROB-PRA14",
+   2
+  ],
+  [
+   "PROB-PRA15",
+   2
+  ],
+  [
+   "PROB-PRA16",
+   3
+  ],
+  [
+   "PROB-TOP00",
+   2
+  ]
+ ],
+ "concepts_per_unit": {
+  "min": 1,
+  "max": 12,
+  "median": 3
+ },
+ "components": 68,
+ "component_sizes": [
+  29,
+  10,
+  5,
+  2,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "isolated_concepts": [
+  "motivation",
+  "differentiation-rules",
+  "higher-order-derivatives",
+  "indefinite-integral",
+  "substitution",
+  "properties-of-the-definite-integral",
+  "mean-value-theorem-for-integrals",
+  "newton-leibniz-formula",
+  "series",
+  "convergence-of-series",
+  "tests-for-convergence-of-numerical-series",
+  "taylor-series",
+  "maclaurin-series",
+  "domains-of-convergence",
+  "integrals",
+  "systems-of-linear-equations-sle",
+  "matrices-of-sle",
+  "jordan-gauss-method",
+  "matrices",
+  "row",
+  "operations",
+  "elimination",
+  "system-of-linear-equations-sle",
+  "row-operations",
+  "gaussian-elimination",
+  "applications-for-solutions-for-sle",
+  "concept-of-a-linear-space",
+  "algebraic-view-on-vectors",
+  "definition-of-a-matrix-recap",
+  "special-matrices",
+  "scalar-multiplication",
+  "transposition",
+  "matrices-addition",
+  "multiplication-of-matrix-by-vector",
+  "matrix-multiplication",
+  "inverse-matrix",
+  "inverse-matrix-using-jordan-gauss-method",
+  "explicit-formula-for-an-inverse-for-2-2-matrix",
+  "their-applications",
+  "determinant-of-matrix",
+  "geometrical-approach-in-the-case-of-a-2-2-matrix",
+  "geometric-transformations-using-vectors-matrices-symmetry",
+  "rotation",
+  "basic-averaging",
+  "majority-vote",
+  "bagging-ensemble",
+  "random-forest",
+  "adaptive-boosting",
+  "stacking",
+  "blending",
+  "accuracy",
+  "baselines",
+  "confusion-matrix",
+  "recall",
+  "precision",
+  "dice",
+  "roc",
+  "auc",
+  "holistic-view",
+  "independent-events",
+  "bayes-rule",
+  "expected-value",
+  "variance",
+  "standard-deviation"
+ ],
+ "dangling_links": 0,
+ "orphan_concepts": [],
+ "thin_definitions": [
+  "limits",
+  "definition-of-the-derivative",
+  "motivation",
+  "differentiation-rules",
+  "differential-of-a-function",
+  "higher-order-derivatives",
+  "antiderivative",
+  "indefinite-integral",
+  "substitution",
+  "definite-integral",
+  "properties-of-the-definite-integral",
+  "mean-value-theorem-for-integrals",
+  "newton-leibniz-formula",
+  "series",
+  "convergence-of-series",
+  "tests-for-convergence-of-numerical-series",
+  "taylor-series",
+  "maclaurin-series",
+  "domains-of-convergence",
+  "integrals",
+  "linear-equations",
+  "systems-of-linear-equations-sle",
+  "matrices-of-sle",
+  "jordan-gauss-method",
+  "back-to-school",
+  "matrices",
+  "row",
+  "operations",
+  "elimination",
+  "system-of-linear-equations-sle",
+  "row-operations",
+  "gaussian-elimination",
+  "applications-for-sle",
+  "applications-for-solutions-for-sle",
+  "vectors",
+  "concept-of-a-linear-space",
+  "algebraic-view-on-vectors",
+  "definition-of-a-matrix-recap",
+  "special-matrices",
+  "matrix-operations-addition",
+  "scalar-multiplication",
+  "transposition",
+  "matrix-operations-multiplication",
+  "matrices-addition",
+  "multiplication-of-matrix-by-vector",
+  "matrix-multiplication",
+  "an-inverse-matrix",
+  "inverse-matrix",
+  "inverse-matrix-using-jordan-gauss-method",
+  "explicit-formula-for-an-inverse-for-2-2-matrix",
+  "solving-sle-using-the-inverse-matrix",
+  "determinants",
+  "their-applications",
+  "determinant-of-matrix",
+  "geometrical-approach-in-the-case-of-a-2-2-matrix",
+  "geometric-transformations",
+  "geometric-transformations-using-vectors-matrices-symmetry",
+  "rotation",
+  "ensemble-learning",
+  "basic-averaging",
+  "majority-vote",
+  "bagging-ensemble",
+  "random-forest",
+  "adaptive-boosting",
+  "stacking",
+  "blending",
+  "performance-metrics",
+  "accuracy",
+  "baselines",
+  "confusion-matrix",
+  "recall",
+  "precision",
+  "dice",
+  "roc",
+  "auc",
+  "holistic-view",
+  "basics-of-logic",
+  "set-theory",
+  "logical-propositions",
+  "true-false-propositions",
+  "logical-operations",
+  "truth-tables",
+  "negations-to-claims",
+  "sets",
+  "subsets",
+  "set-operations",
+  "euler-diagrams",
+  "number-of-elements-in-a-finite-set",
+  "combinatorics",
+  "cartesian-product",
+  "multiplication",
+  "addition-rules",
+  "permutations",
+  "combinations",
+  "probability",
+  "rules-of-probability-preparation-lecture-materials-8",
+  "event-space",
+  "events",
+  "probability-definition",
+  "rules-of-probability",
+  "combinatorics-in-probability-word-problems",
+  "conditional-probability",
+  "independent-events",
+  "total-probability-law-chain-rule",
+  "posteriori-probability",
+  "bayes-rule",
+  "random-distributions",
+  "expected-value",
+  "variance",
+  "standard-deviation"
+ ],
+ "prerequisite_acyclic": true,
+ "graph_notes": [],
+ "unverified_quotes": [],
+ "gate_failures": [],
+ "gate_passed": true
+}

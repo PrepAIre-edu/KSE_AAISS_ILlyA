@@ -1,0 +1,121 @@
+concept_slug,unit_id,rel_path,role,confidence,quote
+limits,CALC-TOP00,Syllabus_Calculus.pdf,introduced,0.6,Limits
+definition-of-the-derivative,CALC-LEC05,Syllabus_Calculus.pdf,introduced,0.6,Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15
+motivation,CALC-LEC05,Syllabus_Calculus.pdf,introduced,0.6,Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15
+differentiation-rules,CALC-LEC05,Syllabus_Calculus.pdf,introduced,0.6,Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15
+differential-of-a-function,CALC-LEC07,Syllabus_Calculus.pdf,introduced,0.6,Differential of a function. Higher-order derivatives. Practice session 18 Practice session 19
+higher-order-derivatives,CALC-LEC07,Syllabus_Calculus.pdf,introduced,0.6,Differential of a function. Higher-order derivatives. Practice session 18 Practice session 19
+antiderivative,CALC-LEC10,Syllabus_Calculus.pdf,introduced,0.6,Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30
+indefinite-integral,CALC-LEC10,Syllabus_Calculus.pdf,introduced,0.6,Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30
+substitution,CALC-LEC10,Syllabus_Calculus.pdf,introduced,0.6,Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30
+definite-integral,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+properties-of-the-definite-integral,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+mean-value-theorem-for-integrals,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+newton-leibniz-formula,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+series,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+convergence-of-series,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+tests-for-convergence-of-numerical-series,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+taylor-series,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+maclaurin-series,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+domains-of-convergence,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+integrals,CALC-LEC12,Syllabus_Calculus.pdf,introduced,0.6,Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33
+linear-equations,LINALG-TOP00,Syllabus_Linear_Algebra.pdf,introduced,0.6,: Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.
+systems-of-linear-equations-sle,LINALG-TOP00,Syllabus_Linear_Algebra.pdf,introduced,0.6,: Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.
+matrices-of-sle,LINALG-TOP00,Syllabus_Linear_Algebra.pdf,introduced,0.6,: Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.
+jordan-gauss-method,LINALG-TOP00,Syllabus_Linear_Algebra.pdf,introduced,0.6,: Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.
+back-to-school,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+matrices,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+row,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+operations,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+jordan-gauss-method,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+elimination,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+system-of-linear-equations-sle,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+matrices-of-sle,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+row-operations,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+gaussian-elimination,LINALG-SES01,Syllabus_Linear_Algebra.pdf,introduced,0.6,Back to School. Problem Solving Session 2. Matrices and row
+applications-for-sle,LINALG-SES04,Syllabus_Linear_Algebra.pdf,introduced,0.6,Applications for SLE.
+applications-for-solutions-for-sle,LINALG-SES04,Syllabus_Linear_Algebra.pdf,introduced,0.6,Applications for SLE.
+vectors,LINALG-SES06,Syllabus_Linear_Algebra.pdf,introduced,0.6,Operations with vectors. The concept of a linear space.
+concept-of-a-linear-space,LINALG-SES06,Syllabus_Linear_Algebra.pdf,introduced,0.6,Operations with vectors. The concept of a linear space.
+algebraic-view-on-vectors,LINALG-SES06,Syllabus_Linear_Algebra.pdf,introduced,0.6,Operations with vectors. The concept of a linear space.
+definition-of-a-matrix-recap,LINALG-SES06,Syllabus_Linear_Algebra.pdf,introduced,0.6,Operations with vectors. The concept of a linear space.
+special-matrices,LINALG-SES06,Syllabus_Linear_Algebra.pdf,introduced,0.6,Operations with vectors. The concept of a linear space.
+matrix-operations-addition,LINALG-SES07,Syllabus_Linear_Algebra.pdf,introduced,0.6,"Matrix operations: addition, scalar multiplication, transposition."
+scalar-multiplication,LINALG-SES07,Syllabus_Linear_Algebra.pdf,introduced,0.6,"Matrix operations: addition, scalar multiplication, transposition."
+transposition,LINALG-SES07,Syllabus_Linear_Algebra.pdf,introduced,0.6,"Matrix operations: addition, scalar multiplication, transposition."
+matrix-operations-multiplication,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+matrices-addition,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+scalar-multiplication,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+transposition,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+multiplication-of-matrix-by-vector,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+matrix-multiplication,LINALG-SES08,Syllabus_Linear_Algebra.pdf,introduced,0.6,Matrix operations: multiplication.
+an-inverse-matrix,LINALG-SES10,Syllabus_Linear_Algebra.pdf,introduced,0.6,Finding an inverse matrix.
+inverse-matrix,LINALG-SES10,Syllabus_Linear_Algebra.pdf,introduced,0.6,Finding an inverse matrix.
+inverse-matrix-using-jordan-gauss-method,LINALG-SES10,Syllabus_Linear_Algebra.pdf,introduced,0.6,Finding an inverse matrix.
+explicit-formula-for-an-inverse-for-2-2-matrix,LINALG-SES10,Syllabus_Linear_Algebra.pdf,introduced,0.6,Finding an inverse matrix.
+solving-sle-using-the-inverse-matrix,LINALG-SES11,Syllabus_Linear_Algebra.pdf,introduced,0.6,Solving SLE using the inverse matrix.
+determinants,LINALG-SES12,Syllabus_Linear_Algebra.pdf,introduced,0.6,Determinants and their applications.
+their-applications,LINALG-SES12,Syllabus_Linear_Algebra.pdf,introduced,0.6,Determinants and their applications.
+solving-sle-using-the-inverse-matrix,LINALG-SES12,Syllabus_Linear_Algebra.pdf,introduced,0.6,Determinants and their applications.
+determinant-of-matrix,LINALG-SES12,Syllabus_Linear_Algebra.pdf,introduced,0.6,Determinants and their applications.
+geometrical-approach-in-the-case-of-a-2-2-matrix,LINALG-SES12,Syllabus_Linear_Algebra.pdf,introduced,0.6,Determinants and their applications.
+geometric-transformations,LINALG-SES14,Syllabus_Linear_Algebra.pdf,introduced,0.6,Geometric transformations and matrices.
+matrices,LINALG-SES14,Syllabus_Linear_Algebra.pdf,introduced,0.6,Geometric transformations and matrices.
+geometric-transformations-using-vectors-matrices-symmetry,LINALG-SES14,Syllabus_Linear_Algebra.pdf,introduced,0.6,Geometric transformations and matrices.
+rotation,LINALG-SES14,Syllabus_Linear_Algebra.pdf,introduced,0.6,Geometric transformations and matrices.
+ensemble-learning,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+basic-averaging,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+majority-vote,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+bagging-ensemble,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+random-forest,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+adaptive-boosting,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+stacking,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+blending,ML-MOD05,Syllabus_Machine_Learning.pdf,introduced,0.6,Ensemble learning
+performance-metrics,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+accuracy,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+baselines,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+confusion-matrix,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+recall,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+precision,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+dice,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+roc,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+auc,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+holistic-view,ML-MOD06,Syllabus_Machine_Learning.pdf,introduced,0.6,Performance metrics
+basics-of-logic,PROB-TOP00,Syllabus_Probability_essentials.pdf,introduced,0.6,Basics of logic and set theory
+set-theory,PROB-TOP00,Syllabus_Probability_essentials.pdf,introduced,0.6,Basics of logic and set theory
+logical-propositions,PROB-MAT01,Syllabus_Probability_essentials.pdf,introduced,0.6,"Logical propositions, true/false propositions."
+true-false-propositions,PROB-MAT01,Syllabus_Probability_essentials.pdf,introduced,0.6,"Logical propositions, true/false propositions."
+logical-operations,PROB-MAT02,Syllabus_Probability_essentials.pdf,introduced,0.6,"Logical operations, truth tables."
+truth-tables,PROB-MAT02,Syllabus_Probability_essentials.pdf,introduced,0.6,"Logical operations, truth tables."
+negations-to-claims,PROB-MAT03,Syllabus_Probability_essentials.pdf,introduced,0.6,Building negations to claims. Practice session 3. Building negations to claims.
+sets,PROB-MAT04,Syllabus_Probability_essentials.pdf,introduced,0.6,"Sets and subsets, set operations, Euler diagrams."
+subsets,PROB-MAT04,Syllabus_Probability_essentials.pdf,introduced,0.6,"Sets and subsets, set operations, Euler diagrams."
+set-operations,PROB-MAT04,Syllabus_Probability_essentials.pdf,introduced,0.6,"Sets and subsets, set operations, Euler diagrams."
+euler-diagrams,PROB-MAT04,Syllabus_Probability_essentials.pdf,introduced,0.6,"Sets and subsets, set operations, Euler diagrams."
+number-of-elements-in-a-finite-set,PROB-MAT05,Syllabus_Probability_essentials.pdf,introduced,0.6,The Number of Elements in a Finite Set. Practice session 5. The Number of Elements in a Finite Set.
+set-theory,PROB-MAT05,Syllabus_Probability_essentials.pdf,introduced,0.6,The Number of Elements in a Finite Set. Practice session 5. The Number of Elements in a Finite Set.
+combinatorics,PROB-MAT05,Syllabus_Probability_essentials.pdf,introduced,0.6,The Number of Elements in a Finite Set. Practice session 5. The Number of Elements in a Finite Set.
+cartesian-product,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+multiplication,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+addition-rules,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+permutations,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+combinations,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+probability,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+rules-of-probability-preparation-lecture-materials-8,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+event-space,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+events,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+probability-definition,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+rules-of-probability,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+combinatorics-in-probability-word-problems,PROB-MAT06,Syllabus_Probability_essentials.pdf,introduced,0.6,"Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules."
+conditional-probability,PROB-MAT11,Syllabus_Probability_essentials.pdf,introduced,0.6,Conditional probability and independent events. Practice session 11. Conditional probability and independent events.
+independent-events,PROB-MAT11,Syllabus_Probability_essentials.pdf,introduced,0.6,Conditional probability and independent events. Practice session 11. Conditional probability and independent events.
+total-probability-law-chain-rule,PROB-MAT12,Syllabus_Probability_essentials.pdf,introduced,0.6,Total probability law (chain rule).
+posteriori-probability,PROB-MAT13,Syllabus_Probability_essentials.pdf,introduced,0.6,"A posteriori probability, Bayes' rule. Practice session 13. A posteriori probability, Bayes' rule."
+bayes-rule,PROB-MAT13,Syllabus_Probability_essentials.pdf,introduced,0.6,"A posteriori probability, Bayes' rule. Practice session 13. A posteriori probability, Bayes' rule."
+posteriori-probability,PROB-MAT14,Syllabus_Probability_essentials.pdf,introduced,0.6,"A posteriori probability, Bayes' rule."
+bayes-rule,PROB-MAT14,Syllabus_Probability_essentials.pdf,introduced,0.6,"A posteriori probability, Bayes' rule."
+random-distributions,PROB-MAT15,Syllabus_Probability_essentials.pdf,introduced,0.6,Random distributions. Expected value.
+expected-value,PROB-MAT15,Syllabus_Probability_essentials.pdf,introduced,0.6,Random distributions. Expected value.
+random-distributions,PROB-MAT16,Syllabus_Probability_essentials.pdf,introduced,0.6,Random distributions. Variance and standard deviation.
+variance,PROB-MAT16,Syllabus_Probability_essentials.pdf,introduced,0.6,Random distributions. Variance and standard deviation.
+standard-deviation,PROB-MAT16,Syllabus_Probability_essentials.pdf,introduced,0.6,Random distributions. Variance and standard deviation.

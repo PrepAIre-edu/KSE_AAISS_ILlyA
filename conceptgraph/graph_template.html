@@ -1,0 +1,142 @@
+<!doctype html><html lang="uk"><meta charset="utf-8">
+<title>Граф концептів — MIT course dump</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font:13px/1.45 -apple-system,Segoe UI,Roboto,sans-serif;background:#0e1116;color:#d7dde5;overflow:hidden}
+#app{display:flex;height:100vh}
+#side{width:330px;flex:none;background:#151a21;border-right:1px solid #232b36;display:flex;flex-direction:column}
+#side h1{font-size:14px;margin:14px 16px 4px;letter-spacing:.02em}
+#side .sub{font-size:11px;color:#7d8899;margin:0 16px 12px}
+.sect{padding:10px 16px;border-top:1px solid #232b36}
+.sect h2{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#7d8899;margin:0 0 8px}
+label{display:flex;align-items:center;gap:7px;padding:2px 0;cursor:pointer;font-size:12px}
+input[type=search]{width:100%;background:#0e1116;border:1px solid #2c3542;color:#d7dde5;border-radius:5px;padding:6px 9px;font-size:12px}
+input[type=range]{width:100%}
+#detail{flex:1;overflow:auto;padding:12px 16px;border-top:1px solid #232b36}
+#detail h3{margin:0 0 2px;font-size:15px}
+#detail .meta{font-size:11px;color:#7d8899;margin-bottom:10px}
+#detail .def{color:#b9c3d0;margin-bottom:12px}
+#detail h4{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:#7d8899;margin:14px 0 6px}
+.pill{display:inline-block;padding:1px 7px;border-radius:9px;font-size:10px;margin:0 4px 4px 0;background:#232b36;color:#9fb0c4}
+.q{border-left:2px solid #3a4658;padding:3px 0 3px 9px;margin:0 0 8px;font-size:11.5px;color:#9aa7b7;font-style:italic}
+.fp{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:#6f96c9;word-break:break-all;margin-bottom:3px}
+.nb{display:block;padding:3px 0;color:#9fb0c4;cursor:pointer;font-size:12px;text-decoration:none}
+.nb:hover{color:#fff}
+.nb small{color:#68758a}
+#cv{flex:1;position:relative}
+svg{width:100%;height:100%;display:block;cursor:grab}
+#tip{position:absolute;pointer-events:none;background:#1c232c;border:1px solid #333e4c;border-radius:5px;padding:5px 9px;font-size:12px;opacity:0;transition:opacity .1s;white-space:nowrap}
+#stat{position:absolute;left:12px;bottom:10px;font-size:11px;color:#68758a}
+#leg{position:absolute;right:12px;top:10px;font-size:11px;background:#151a21cc;border:1px solid #232b36;border-radius:6px;padding:8px 11px}
+#leg div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.sw{width:18px;height:2px;display:inline-block}
+</style>
+<div id="app">
+<div id="side">
+  <h1>Граф концептів</h1>
+  <div class="sub" id="hdr"></div>
+  <div class="sect"><input type="search" id="q" placeholder="пошук концепту…"></div>
+  <div class="sect"><h2>Курси</h2><div id="fc"></div></div>
+  <div class="sect"><h2>Типи зв'язків</h2><div id="fl"></div>
+     <label style="margin-top:6px"><input type="checkbox" id="onlyx"> лише міжкурсові</label>
+     <div style="margin-top:8px"><h2>Мін. ступінь вузла: <span id="dv">0</span></h2>
+     <input type="range" id="dmin" min="0" max="12" value="0"></div>
+  </div>
+  <div id="detail"><div style="color:#68758a">Клікни вузол, щоб побачити визначення, файли-джерела та цитати.</div></div>
+</div>
+<div id="cv"><svg></svg><div id="tip"></div><div id="stat"></div>
+<div id="leg">
+<div><span class="sw" style="background:#e0645a"></span>prerequisite</div>
+<div><span class="sw" style="background:#5aa9e0"></span>part_of</div>
+<div><span class="sw" style="background:#63c088"></span>applies_to</div>
+<div><span class="sw" style="background:#d9a441"></span>contrasts_with</div>
+<div><span class="sw" style="background:#5c6675"></span>related</div>
+</div></div>
+</div>
+<script>
+const DATA = __DATA__;
+const LT={prerequisite:"#e0645a",part_of:"#5aa9e0",applies_to:"#63c088",contrasts_with:"#d9a441",related:"#5c6675"};
+const CC={AGAI:"#c084fc",AI:"#60a5fa",DBS:"#34d399",NUR:"#f472b6",SMM:"#fbbf24"};
+const byId=Object.fromEntries(DATA.nodes.map(n=>[n.id,n]));
+const courses=[...new Set(DATA.nodes.flatMap(n=>n.cs))].sort();
+const state={c:new Set(courses),l:new Set(Object.keys(LT)),x:false,dmin:0,q:"",sel:null};
+document.getElementById('hdr').textContent=DATA.nodes.length+" концептів · "+DATA.links.length+" зв'язків · 61 юніт · 5 курсів";
+const fc=document.getElementById('fc');
+courses.forEach(c=>{const l=document.createElement('label');
+ l.innerHTML='<input type=checkbox checked data-c="'+c+'"><span class="sw" style="background:'+CC[c]+';width:10px;height:10px;border-radius:50%"></span>'+c+
+ ' <small style="color:#68758a">'+DATA.nodes.filter(n=>n.cs.includes(c)).length+'</small>';
+ l.querySelector('input').onchange=e=>{e.target.checked?state.c.add(c):state.c.delete(c);draw()};fc.appendChild(l)});
+const fl=document.getElementById('fl');
+Object.keys(LT).forEach(t=>{const l=document.createElement('label');
+ l.innerHTML='<input type=checkbox checked><span class="sw" style="background:'+LT[t]+'"></span>'+t+
+ ' <small style="color:#68758a">'+DATA.links.filter(k=>k.ty===t).length+'</small>';
+ l.querySelector('input').onchange=e=>{e.target.checked?state.l.add(t):state.l.delete(t);draw()};fl.appendChild(l)});
+document.getElementById('onlyx').onchange=e=>{state.x=e.target.checked;draw()};
+document.getElementById('dmin').oninput=e=>{state.dmin=+e.target.value;document.getElementById('dv').textContent=e.target.value;draw()};
+document.getElementById('q').oninput=e=>{state.q=e.target.value.toLowerCase();draw()};
+
+const svg=d3.select('svg'), g=svg.append('g');
+svg.call(d3.zoom().scaleExtent([.15,6]).on('zoom',ev=>g.attr('transform',ev.transform)));
+let lsel=g.append('g').attr('fill','none'), nsel=g.append('g'), tsel=g.append('g');
+const tip=document.getElementById('tip');
+const sim=d3.forceSimulation()
+ .force('link',d3.forceLink().id(d=>d.id).distance(d=>d.ty==='related'?95:62).strength(d=>d.w*.5))
+ .force('charge',d3.forceManyBody().strength(-165))
+ .force('collide',d3.forceCollide(d=>4+Math.sqrt(d.deg)*2.4))
+ .force('x',d3.forceX().strength(.035)).force('y',d3.forceY().strength(.045));
+
+function draw(){
+ const nodes=DATA.nodes.filter(n=>n.cs.some(c=>state.c.has(c)) && n.deg>=state.dmin);
+ const ok=new Set(nodes.map(n=>n.id));
+ let links=DATA.links.filter(l=>state.l.has(l.ty)&&ok.has(l.s)&&ok.has(l.t)&&(!state.x||l.x));
+ const N=nodes.map(n=>Object.assign(byId[n.id]._p||{},n)), L=links.map(l=>({...l,source:l.s,target:l.t}));
+ document.getElementById('stat').textContent=N.length+' вузлів · '+L.length+' ребер видно';
+ lsel.selectAll('path').data(L,d=>d.s+d.ty+d.t).join('path')
+   .attr('stroke',d=>LT[d.ty]).attr('stroke-width',d=>.5+d.w*1.5)
+   .attr('stroke-opacity',d=>d.x?.75:.34)
+   .attr('marker-end',d=>d.ty==='prerequisite'?'url(#ar)':null);
+ const nn=nsel.selectAll('circle').data(N,d=>d.id).join('circle')
+   .attr('r',d=>3.6+Math.sqrt(d.deg)*1.75)
+   .attr('fill',d=>CC[d.cs[0]]).attr('stroke','#0e1116').attr('stroke-width',1)
+   .style('opacity',d=>state.q&&!(d.n.toLowerCase().includes(state.q)||d.id.includes(state.q))?.13:1)
+   .style('cursor','pointer')
+   .on('mouseover',(e,d)=>{tip.style.opacity=1;tip.textContent=d.n+' ('+d.cs.join(',')+', d'+d.d+')'})
+   .on('mousemove',e=>{tip.style.left=(e.offsetX+14)+'px';tip.style.top=(e.offsetY+10)+'px'})
+   .on('mouseout',()=>tip.style.opacity=0)
+   .on('click',(e,d)=>show(d.id))
+   .call(d3.drag().on('start',(e,d)=>{if(!e.active)sim.alphaTarget(.25).restart();d.fx=d.x;d.fy=d.y})
+     .on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y}).on('end',(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null}));
+ const tt=tsel.selectAll('text').data(N.filter(d=>d.deg>=6||state.q&&d.n.toLowerCase().includes(state.q)),d=>d.id)
+   .join('text').text(d=>d.n).attr('font-size',10).attr('fill','#9fb0c4')
+   .attr('text-anchor','middle').attr('dy',-9).style('pointer-events','none');
+ sim.nodes(N).on('tick',()=>{
+   lsel.selectAll('path').attr('d',d=>{const dx=d.target.x-d.source.x,dy=d.target.y-d.source.y,
+     r=Math.hypot(dx,dy)*2.6;return `M${d.source.x},${d.source.y}A${r},${r} 0 0,1 ${d.target.x},${d.target.y}`});
+   nn.attr('cx',d=>d.x).attr('cy',d=>d.y); tt.attr('x',d=>d.x).attr('y',d=>d.y);
+ });
+ sim.force('link').links(L); sim.alpha(.55).restart();
+ N.forEach(n=>byId[n.id]._p=n);
+}
+svg.append('defs').html('<marker id="ar" viewBox="0 -4 8 8" refX="16" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,-3L7,0L0,3" fill="#e0645a" opacity=".8"/></marker>');
+
+function show(id){
+ const n=byId[id], out=DATA.links.filter(l=>l.s===id), inn=DATA.links.filter(l=>l.t===id);
+ const os=DATA.occ[id]||[];
+ const row=(l,dir)=>`<a class="nb" onclick="show('${dir==='out'?l.t:l.s}')">`+
+   `<span class="sw" style="background:${LT[l.ty]};width:9px;height:9px;border-radius:2px"></span> `+
+   (byId[dir==='out'?l.t:l.s]||{}).n+` <small>${l.ty}${l.x?' ⇄ cross-course':''}</small></a>`;
+ document.getElementById('detail').innerHTML=
+  `<h3>${n.n}</h3><div class="meta">${n.id} · ${n.k} · складність ${n.d}/5 · ${n.dom||''}</div>`+
+  `<div>${n.cs.map(c=>`<span class="pill" style="background:${CC[c]}22;color:${CC[c]}">${c}</span>`).join('')}`+
+  `${n.al.map(a=>`<span class="pill">${a}</span>`).join('')}</div>`+
+  `<div class="def">${n.def}</div>`+
+  `<h4>Юніти (${n.u.length})</h4><div>${n.u.map(u=>`<span class="pill">${u}</span>`).join('')}</div>`+
+  `<h4>Файли-джерела (${n.f.length})</h4>${n.f.map(f=>`<div class="fp">${f}</div>`).join('')}`+
+  (os.length?`<h4>Цитати-докази</h4>`+os.map(o=>`<div class="q">“${o.q}”<br><span style="color:#5b6675">— ${o.r}</span></div>`).join(''):'')+
+  (out.length?`<h4>Веде до (${out.length})</h4>`+out.map(l=>row(l,'out')).join(''):'')+
+  (inn.length?`<h4>Залежить від (${inn.length})</h4>`+inn.map(l=>row(l,'in')).join(''):'');
+ document.getElementById('detail').scrollTop=0;
+}
+window.show=show; draw();
+</script></html>

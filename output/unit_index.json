@@ -1,0 +1,594 @@
+[
+ {
+  "unit_id": "CALC-TOP00",
+  "course": "CALC",
+  "module": 0,
+  "unit": 0,
+  "title": "Limits",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Calculus.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Calculus.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "CALC-LEC05",
+  "course": "CALC",
+  "module": 5,
+  "unit": 5,
+  "title": "Definition of the derivative. Motivation. Differentiation rules. Properties. Practice session 13 Practice session 14 Practice session 15",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Calculus.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Calculus.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "CALC-LEC07",
+  "course": "CALC",
+  "module": 7,
+  "unit": 7,
+  "title": "Differential of a function. Higher-order derivatives. Practice session 18 Practice session 19",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Calculus.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Calculus.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "CALC-LEC10",
+  "course": "CALC",
+  "module": 10,
+  "unit": 10,
+  "title": "Antiderivative and indefinite integral. Substitution. Practice session 26 Practice session 27 Practice session 28 Week 11 Lecture 11 Integrating by parts Practice session 29 Practice session 30",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Calculus.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Calculus.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "CALC-LEC12",
+  "course": "CALC",
+  "module": 12,
+  "unit": 12,
+  "title": "Definite integral. Properties of the definite integral. Mean value theorem for integrals. Newton-Leibniz formula. Practice session 31 Practice session 32 Practice session 33",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Calculus.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Calculus.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-TOP00",
+  "course": "LINALG",
+  "module": 1,
+  "unit": 0,
+  "title": ": Linear equations. Systems of linear equations (SLE). Matrices of SLE. Jordan-Gauss method.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES01",
+  "course": "LINALG",
+  "module": 1,
+  "unit": 1,
+  "title": "Back to School. Problem Solving Session 2. Matrices and row",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES04",
+  "course": "LINALG",
+  "module": 2,
+  "unit": 4,
+  "title": "Applications for SLE.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES06",
+  "course": "LINALG",
+  "module": 2,
+  "unit": 6,
+  "title": "Operations with vectors. The concept of a linear space.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES07",
+  "course": "LINALG",
+  "module": 3,
+  "unit": 7,
+  "title": "Matrix operations: addition, scalar multiplication, transposition.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES08",
+  "course": "LINALG",
+  "module": 3,
+  "unit": 8,
+  "title": "Matrix operations: multiplication.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES10",
+  "course": "LINALG",
+  "module": 4,
+  "unit": 10,
+  "title": "Finding an inverse matrix.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES11",
+  "course": "LINALG",
+  "module": 5,
+  "unit": 11,
+  "title": "Solving SLE using the inverse matrix.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES12",
+  "course": "LINALG",
+  "module": 5,
+  "unit": 12,
+  "title": "Determinants and their applications.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "LINALG-SES14",
+  "course": "LINALG",
+  "module": 6,
+  "unit": 14,
+  "title": "Geometric transformations and matrices.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Linear_Algebra.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Linear_Algebra.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "ML-MOD05",
+  "course": "ML",
+  "module": 0,
+  "unit": 5,
+  "title": "module 5",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Machine_Learning.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Machine_Learning.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "ML-MOD06",
+  "course": "ML",
+  "module": 0,
+  "unit": 6,
+  "title": "module 6",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Machine_Learning.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Machine_Learning.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-TOP00",
+  "course": "PROB",
+  "module": 1,
+  "unit": 0,
+  "title": "Basics of logic and set theory",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT01",
+  "course": "PROB",
+  "module": 1,
+  "unit": 1,
+  "title": "Logical propositions, true/false propositions.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA01",
+  "course": "PROB",
+  "module": 1,
+  "unit": 1,
+  "title": "Logical propositions, true/false propositions.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT02",
+  "course": "PROB",
+  "module": 1,
+  "unit": 2,
+  "title": "Logical operations, truth tables.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA02",
+  "course": "PROB",
+  "module": 1,
+  "unit": 2,
+  "title": "Logical operations, truth tables.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT03",
+  "course": "PROB",
+  "module": 2,
+  "unit": 3,
+  "title": "Building negations to claims.  Practice session 3. Building negations to claims.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT04",
+  "course": "PROB",
+  "module": 2,
+  "unit": 4,
+  "title": "Sets and subsets, set operations, Euler diagrams.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA04",
+  "course": "PROB",
+  "module": 2,
+  "unit": 4,
+  "title": "Sets and subsets, set operations, Euler diagrams.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT05",
+  "course": "PROB",
+  "module": 3,
+  "unit": 5,
+  "title": "The Number of Elements in a Finite Set.  Practice session 5. The Number of Elements in a Finite Set.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT06",
+  "course": "PROB",
+  "module": 3,
+  "unit": 6,
+  "title": "Cartesian product, multiplication and addition rules. Practice session 6. Cartesian product, multiplication and addition rules.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT11",
+  "course": "PROB",
+  "module": 6,
+  "unit": 11,
+  "title": "Conditional probability and independent events.  Practice session 11. Conditional probability and independent events.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT12",
+  "course": "PROB",
+  "module": 6,
+  "unit": 12,
+  "title": "Total probability law (chain rule).",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA12",
+  "course": "PROB",
+  "module": 6,
+  "unit": 12,
+  "title": "Total probability law (chain rule).",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT13",
+  "course": "PROB",
+  "module": 7,
+  "unit": 13,
+  "title": "A posteriori probability, Bayes' rule.  Practice session 13. A posteriori probability, Bayes' rule.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT14",
+  "course": "PROB",
+  "module": 7,
+  "unit": 14,
+  "title": "A posteriori probability, Bayes' rule.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA14",
+  "course": "PROB",
+  "module": 7,
+  "unit": 14,
+  "title": "A posteriori probability, Bayes' rule.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT15",
+  "course": "PROB",
+  "module": 8,
+  "unit": 15,
+  "title": "Random distributions. Expected value.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA15",
+  "course": "PROB",
+  "module": 8,
+  "unit": 15,
+  "title": "Random distributions. Expected value.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-MAT16",
+  "course": "PROB",
+  "module": 8,
+  "unit": 16,
+  "title": "Random distributions. Variance and standard deviation.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ },
+ {
+  "unit_id": "PROB-PRA16",
+  "course": "PROB",
+  "module": 8,
+  "unit": 16,
+  "title": "Random distributions. Variance and standard deviation.",
+  "n_files": 1,
+  "chars": 0,
+  "files": [
+   {
+    "rel_path": "Syllabus_Probability_essentials.pdf",
+    "asset_kind": "handbook",
+    "filename": "Syllabus_Probability_essentials.pdf"
+   }
+  ]
+ }
+]
