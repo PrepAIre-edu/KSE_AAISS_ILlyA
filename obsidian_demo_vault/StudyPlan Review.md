@@ -1,31 +1,35 @@
 ---
-reviewed_by: curriculum-planning-assistant
+reviewed: 2026-08-22
 source: StudyPlan.md
 ---
 
 # Study Plan Review
 
 ## ECTS Budget
-- `validate_study_plan` on target_courses [ML, PROB] (completed: CALC): **total = 10 ECTS**, budget = 20 ECTS → **within budget**, not over.
-- No internal prerequisite violations between CALC/ML/PROB.
-- Recommended order: **ML → PROB**.
-
-## Term Plan Conflict
-- `detect_plan_conflicts` on the term-1 load [LINALG, ML, PROB] with a 12 ECTS/term cap found:
-  - **credit_overload** in term 1: LINALG + ML + PROB total **13 ECTS**, exceeding the 12 ECTS cap by 1.
-  - Fix: move one course (e.g. LINALG, 3 ECTS) to a later term, or raise the per-term cap.
+- Target courses (ML, PROB) total **10 ECTS** against a 20 ECTS budget — well **under budget**, not over.
+- `validate_study_plan` reports the plan as valid with no internal prerequisite violations, and recommends taking **ML before PROB**.
 
 ## Unverifiable External Prerequisites
-- ML lists two external prerequisites this system cannot check against your record: **"Programming Concepts"** and **"Data Manipulation Essentials"**. Confirm you've covered these elsewhere before enrolling.
+ML has two external prerequisites that fall outside this dataset and could not be verified by the system:
+- **Programming Concepts**
+- **Data Manipulation Essentials**
 
-## Waiver Check — PROB
-- Checked via `suggest_substitution` against known_concepts (Bayes' rule, Combinations, Permutations):
-  - PROB has **34 total concepts**; only **3 covered**, **31 residual** (e.g. conditional probability, expected value, variance, set theory, rules of probability, etc.).
-  - **Verdict: not waivable** (residual_count 31 far exceeds the max_residual_concepts limit of 5).
-  - Recommendation: take the full PROB course (4 ECTS) — self-study would need to cover the large majority of the syllabus anyway.
+You'll need to confirm on your own that these are satisfied before enrolling in ML.
+
+## Term Plan Conflict
+`detect_plan_conflicts` flags a **credit overload** in Term 1:
+- LINALG + ML + PROB together total **13 ECTS**, exceeding your 12 ECTS/term cap.
+- No prerequisite-order or duplicate-enrollment issues were found — this is purely a load problem.
+- Fix: move one of the three courses (e.g. LINALG, since it's not one of your stated target courses) to a later term.
+
+## Probability (PROB) Waiver Check
+`suggest_substitution` evaluated PROB against your known concepts (Bayes' rule, Combinations, Permutations):
+- PROB has **34 total concepts**; only **3 are covered** by what you already know.
+- **31 residual concepts** remain uncovered (e.g. conditional probability, expected value, variance, set theory, total probability law, and more).
+- Verdict: **not waivable** — the residual gap (31) far exceeds the max allowed for a waiver (5). Probability essentials is **not redundant**; you'd be skipping the large majority of the syllabus.
 
 ## Summary
-- ECTS budget: OK (10/20).
-- Term 1 schedule: **over by 1 ECTS** — needs rebalancing.
-- ML's two external prerequisites: unverified, confirm manually.
-- PROB waiver: **denied** — not meaningfully redundant with prior knowledge.
+- Budget: OK (10/20 ECTS).
+- Term 1: over cap by 1 ECTS (13 vs 12) — rebalance the schedule.
+- External prereqs for ML: unverified, confirm manually.
+- PROB waiver: denied by the tool (31 residual concepts vs. 5 allowed).
