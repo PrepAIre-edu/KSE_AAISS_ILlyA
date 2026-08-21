@@ -42,6 +42,7 @@ and are started independently (see below).
 
 - Python 3.10+
 - [Obsidian](https://obsidian.md) desktop app
+- [Node.js](https://nodejs.org) (for `npm`, to install the Claude Code CLI below)
 - [Claude Code](https://code.claude.com) installed (`npm install -g
   @anthropic-ai/claude-code`) and logged in (a Pro/Max/Team subscription
   works — no separate API key needed), **or** an `ANTHROPIC_API_KEY` from
