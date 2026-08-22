@@ -8,6 +8,18 @@
 
 Це прямо співпадає з офіційним прикладом хорошого домену в завданні: *"Course-planning agent: validate a proposed study plan against prerequisites, detect timetable conflicts, and suggest feasible substitutions under credit constraints."* Ми не збігаємось із зарезервованою темою (research/experiment agent).
 
+## Rubric crosswalk — де саме шукати доказ кожного критерію
+
+| Критерій рубрики (бали) | Де доказ у репо |
+|---|---|
+| 1. MCP architecture and protocol correctness (25) | `mcp_servers/curriculum_mcp/server.py` (окремий процес, `python -m mcp_servers.curriculum_mcp.server`); живі стенограми discovery+call у §2-3 нижче; `README.md` — незалежні команди старту |
+| 2. Documentation and design rationale (25) | `docs/TOOL_CONTRACTS.md` (контракт кожного tool), `docs/DESIGN_RATIONALE.md` (чому кожен tool, alternatives considered, trade-offs) |
+| 3. Custom tool and schema design (18) | `mcp_servers/curriculum_mcp/server.py` (4 tools, pydantic `Annotated`/`Field`-схеми), `docs/TOOL_CONTRACTS.md` |
+| 4. Integration into the agent workflow (14) | `study_planner/study_planner_agent.py` (system prompt з умовним гейтом), §3 і §8 нижче (живі прогони, де результат одного tool визначає виклик іншого) |
+| 5. Existing-server integration and failure demonstration (10) | §3 нижче (успішний виклик + fail-демо на живому агенті й на raw MCP-клієнті) |
+| 6. Operational robustness and responsible data access (8) | `.gitignore` (секрети виключені — і реально знайдений та виправлений витік ключа, див. §5), `.env.example`, `docs/TOOL_CONTRACTS.md` "Shared error-handling contract" |
+| Minimum-condition rule (не більше 59/100 якщо...) | 4 tools (≥3 ✅), `validate_study_plan` читає `concept_graph.json` (primary data source ✅), обидва MCP реально викликані живим агентом (✅, §3/§8), обидва сервери впливають на flow (✅, §3/§8) |
+
 ---
 
 ## 1. Архітектура

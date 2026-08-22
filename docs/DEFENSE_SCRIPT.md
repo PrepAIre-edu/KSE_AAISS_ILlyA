@@ -133,3 +133,47 @@ Likely asks and how to answer live:
 - [ ] Complete custom-server workflow: all 3 required tools + the bonus tool shown across steps 3 and 5
 - [ ] One custom tool's contract and one design decision explained (steps 2, 5)
 - [ ] One realistic failure reproduced and its handling shown (step 4)
+
+## Troubleshooting — real issues hit during development, in the order to check them
+
+If step 2's connectivity check fails with a connection error (not an MCP-level
+error — an actual "connection refused"/"all connection attempts failed"),
+check these in order; every one of them actually happened at least once
+while building this project:
+
+1. **Obsidian isn't open, or the wrong vault is open.** It must be running
+   with `obsidian_demo_vault/` open as the active vault — the plugin's
+   server only exists while Obsidian is running.
+2. **The plugin is installed but not enabled**, or is enabled but the
+   **"Enable Non-encrypted (HTTP) Server" toggle is off.** This toggle does
+   not persist reliably across Obsidian restarts on every setup — re-check
+   it after any restart, not just after first install.
+3. **`.env`'s `OBSIDIAN_BASE_URL` still points at the HTTPS port (27124)
+   instead of HTTP (27123).** This connects fine to a plain Python MCP
+   client (which can disable certificate verification itself) but fails
+   inside `study_planner_agent.py`, because the Node-based Claude Code CLI
+   it shells out to has no simple way to trust the plugin's self-signed
+   certificate — the connection error only shows up one layer down, in the
+   agent run, not in the simpler connectivity check. Always develop/demo
+   against `http://127.0.0.1:27123`.
+4. **A garbled/box-character crash instead of a real error**, specifically
+   on Windows: the console's default codepage (cp1252 etc.) can't encode
+   some characters tool output contains (arrows, non-Latin text, some
+   punctuation). Both `study_planner_agent.py` and
+   `scripts/check_obsidian_connection.py` already force UTF-8 stdout at
+   startup for this reason — if a *third* script hits this, add the same
+   `sys.stdout.reconfigure(encoding="utf-8", errors="replace")` call.
+5. **`npm install -g @anthropic-ai/claude-code` fails or `claude` isn't
+   found** — Node.js itself isn't installed. Install Node.js first (see
+   README Prerequisites), then retry.
+6. **A stale API key or self-signed certificate from a previous plugin
+   install.** Regenerating the API key in Obsidian's plugin settings
+   invalidates the old one instantly; if `.env` still has the old value,
+   every call fails with an auth error, not a connection error — check
+   `OBSIDIAN_API_KEY` matches what the plugin's settings page shows *right
+   now*, not what was pasted in during initial setup.
+
+None of these are MCP-protocol problems — they're all local environment
+setup, which is exactly why step 1 (start the custom server, confirm
+Obsidian's plugin is enabled) exists as its own step before anything else
+is attempted.
