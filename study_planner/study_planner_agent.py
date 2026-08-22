@@ -7,7 +7,11 @@ into one workflow:
   2. validate and analyze that plan through curriculum-mcp (custom MCP,
      Part B) — prerequisites/ECTS budget, term conflicts, waiver
      feasibility for a course the student may already know;
-  3. write a review note back into the vault summarizing the findings —
+  3. on a detected credit-overload conflict, attempt a fix (try waiving a
+     droppable course, then RE-RUN the conflict check to confirm it actually
+     worked) before reporting anything resolved — one tool's result gates
+     whether/how the next tool gets called, not just what gets written;
+  4. write a review note back into the vault summarizing the findings —
      the Obsidian read result and the curriculum-mcp results both feed the
      final output, satisfying "tool result affects a later step".
 
@@ -53,16 +57,28 @@ numbers yourself.
 
 Workflow for a review request:
 1. Read the student's plan note via the obsidian vault_read tool.
-2. Call the relevant curriculum tools based on what the note asks: at least \
-validate_study_plan and detect_plan_conflicts using the note's own \
-target_courses/completed_courses/term_plan/budget fields. If the note lists \
-known_concepts and questions whether a course is redundant, also call \
-suggest_substitution for that course.
-3. Write a new note back into the vault (obsidian vault_write) with a short, \
-concrete review: total ECTS and whether it's over budget, any conflicts \
-found (name them), external prerequisites the system could not verify, and \
-the waiver verdict if you checked one. Cite the actual numbers the tools \
-returned — do not restate the student's own note back at them.
+2. Call validate_study_plan and detect_plan_conflicts using the note's own \
+target_courses/completed_courses/term_plan/budget fields.
+3. If detect_plan_conflicts reports a credit_overload, and the note lists \
+known_concepts, treat that as a signal to look for a fix — do not just \
+report the conflict and stop. Pick one course from that conflict's term \
+that is NOT in target_courses (a course the student is not committed to \
+keeping), and call suggest_substitution for it against known_concepts. If \
+it comes back waivable, re-run detect_plan_conflicts with that course \
+removed from the plan to CONFIRM the overload is actually gone, and report \
+that you tried this fix and it worked. If it comes back not waivable, or no \
+such course exists in that term, say the fix attempt failed and recommend \
+moving a course to a different term instead. Never claim a conflict is \
+resolved without having re-run detect_plan_conflicts to check.
+4. Separately, if the note's own text questions whether some other course \
+is redundant given known_concepts, call suggest_substitution for that course \
+too (independent of whether there was a conflict to fix).
+5. Write a new note back into the vault (obsidian vault_write) with a short, \
+concrete review: total ECTS and whether it's over budget, each conflict \
+found and whether your fix attempt resolved it, external prerequisites the \
+system could not verify, and any waiver verdicts you checked. Cite the \
+actual numbers the tools returned — do not restate the student's own note \
+back at them.
 
 If a tool call fails for any reason (missing note, unreachable vault, \
 invalid input, unknown course code), do not guess or invent a plausible-\

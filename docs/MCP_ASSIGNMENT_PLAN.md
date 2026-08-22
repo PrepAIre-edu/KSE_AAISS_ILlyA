@@ -128,3 +128,11 @@
 - `validate_study_plan`/інші напряму читають `concept_graph.json` — primary data-source tool є.
 - Обидва MCP виклики реально показані успішними в живому прогоні (не лише сконфігуровані) — стенограма вище.
 - Обидва сервери явно впливають на agent flow — результат Obsidian-читання визначає, які curriculum-tools викликаються; результат curriculum-tools визначає вміст записаної нотатки.
+
+## 8. Підсилення agent-flow: гейт "результат tool A визначає виклик tool B"
+
+Користувач попросив ще раз, дуже уважно, звірити наш flow з 7-кроковим "Automatic research agent" з файлу завдання (Obsidian → propose → validate → **run only if validation succeeds** → compare → record → use conclusion for next step). **Важливо: цей флоу — приклад для зарезервованої теми ("automatic research/experiment agent... not an allowed submission topic"), а не загальна вимога.** Ми не повторюємо його 1:1 — і не повинні. Але чесна звірка знайшла реальний пробіл: до цього нашого прогону жоден виклик tool не був **гейтований результатом іншого** (`suggest_substitution` викликався лише за контентом нотатки, ніколи — за результатом `detect_plan_conflicts`).
+
+**Виправлено:** оновлено system prompt (`study_planner/study_planner_agent.py`). Тепер: якщо `detect_plan_conflicts` знаходить `credit_overload`, агент сам обирає курс поза `target_courses` у конфліктному термінІ, викликає `suggest_substitution` для нього; якщо waivable — **повторно викликає `detect_plan_conflicts`** без цього курсу, щоб підтвердити, що конфлікт справді зник, перш ніж писати "вирішено"; якщо not waivable — фіксує, що спроба виправлення провалилась, і рекомендує перенести курс в інший термін.
+
+**Перевірено живим прогоном (2026-08-22):** `detect_plan_conflicts` знайшов term-1 overload (LINALG+ML+PROB=13 ECTS проти лімту 12) → агент сам обрав LINALG (поза target_courses) → викликав `suggest_substitution(LINALG, known_concepts)` → `waivable: false` (0/38 concepts matched) → агент коректно написав "спроба виправлення не вдалась, перенеси курс в інший термін" замість повторного виклику (бо відмова у waiver вже остаточна). 8 turns, $0.36, success. Це і є "tool result gates a later tool call", якого не вистачало.

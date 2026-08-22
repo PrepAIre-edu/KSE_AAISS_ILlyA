@@ -65,9 +65,17 @@ request — see step 5), then `vault_write`s `StudyPlan Review.md`. Open that
 note in Obsidian afterward to show the real, human-readable result.
 
 Point out concretely: `detect_plan_conflicts` should report a
-`credit_overload` (LINALG+ML+PROB = 13 ECTS against the demo note's 12 cap),
-and `suggest_substitution` should deny a PROB waiver (31 of 34 concepts
-uncovered) — both are real computed numbers, not scripted text.
+`credit_overload` (LINALG+ML+PROB = 13 ECTS against the demo note's 12 cap).
+**This is where to show the conditional gate:** because of that conflict,
+the agent picks LINALG (the term-1 course not in `target_courses`) and calls
+`suggest_substitution` on it *before* writing anything — a tool's result
+choosing the next tool call, not just informing the final note. It comes
+back not waivable (0 of 38 concepts matched), so the agent reports the fix
+attempt failed and recommends rescheduling instead of claiming a false fix.
+Separately, `suggest_substitution` also runs for PROB per the note's own
+redundancy question and denies that waiver too (31 of 34 concepts
+uncovered) — two different calls to the same tool, two different reasons.
+All of these are real computed numbers, not scripted text.
 
 ---
 
